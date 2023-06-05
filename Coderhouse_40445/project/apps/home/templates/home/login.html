@@ -4,7 +4,8 @@
     <form action="" method="POST">
          {% csrf_token %}
          {{ form.as_p }}
-         <button type="submit">Inciar sesion</button>
+        <div class="d-grid gap-1">   
+            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+        </div>
     </form>
-    
-{% endblock  content %}
+{% endblock content %}
